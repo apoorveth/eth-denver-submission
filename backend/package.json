@@ -1,0 +1,32 @@
+{
+  "name": "gaslessmtxexperiments",
+  "version": "1.0.0",
+  "description": "experiments related to gasless transactions",
+  "main": "ApproveGasless.js",
+  "scripts": {
+    "start": "nodemon ./bin/www | bunyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugenix-io/GaslessMTXExperiments.git"
+  },
+  "author": "Abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugenix-io/GaslessMTXExperiments/issues"
+  },
+  "homepage": "https://github.com/eugenix-io/GaslessMTXExperiments#readme",
+  "dependencies": {
+    "@metamask/eth-sig-util": "^5.0.2",
+    "bluebird": "^3.7.2",
+    "bunyan": "^1.8.15",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "defender-relay-client": "^1.38.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.0.2",
+    "http-errors": "^2.0.0",
+    "nodemon": "^2.0.20",
+    "web3": "^1.8.2"
+  }
+}

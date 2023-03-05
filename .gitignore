@@ -1,0 +1,18 @@
+backend/node_modules/
+backend/.env
+backend/config-stage.js
+
+contracts/node_modules
+contracts/.env
+contracts/coverage
+contracts/coverage.json
+contracts/typechain
+contracts/typechain-types
+
+# Hardhat files
+contracts/cache
+contracts/artifacts
+
+frontend/dist
+frontend/node_modules
+frontend/*.zip
