@@ -26,3 +26,7 @@ There are multiple reasons why we chose to build this on the Polygon network
 2. To get token approvals, we ask users to sign a message and we relay that message on chain onb their behalf. As the gas fees on Polygon is really low, we don't lose significant amount of money when doing this.
 3. Polygon supports a lot of ERC20 tokens giving our users maximum exposure and usability.
 
+## Using OpenZepplin Defender
+
+We are using the Relayer which is a part of OpenZepplin Defender. The relayer is used to relay the approval and swap transactions which are signed by the user on the frontend. Use of the code can be found in the `backend/approve/controllers/approve.js`.
+
